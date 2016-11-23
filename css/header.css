@@ -1,0 +1,252 @@
+/*!
+ *  iprepare CSS theme 
+ *  header
+ *  
+ */
+
+
+/* title */
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-caption h3 {
+    font-weight: 300;
+}
+
+.carousel-caption button {
+    padding: 10px 40px;
+    background-color: rgb(125, 125, 125);
+    border: none;
+}
+
+.carousel-caption span {
+    opacity: 0.5;
+}
+
+.carousel-caption span {
+    display: none;
+}
+
+.busbox h4 {
+    margin: 25px 25px 10px 25px;
+    font-weight: 300;
+    color: white;
+}
+
+.policyreg h4 {
+    font-weight: 300;
+    margin: 25px 25px 10px 35px;
+    color: white;
+}
+
+.policyreg h6 {
+    font-weight: 300;
+    margin: 0 10px 25px 35px;
+    color: white;
+}
+
+.busbox h6 {
+    font-weight: 300;
+    margin: 0 25px;
+    color: white;
+}
+
+.container_nopadding,
+.container_nopadding .col-sm-6 {
+    padding: 0;
+}
+
+.busbox {
+    background-color: #4FB9E7;
+}
+
+.policyreg {
+    background-color: #01745A;
+}
+#business .policyreg{
+    background-color: #4FB9E7;
+}
+#government .busbox {
+    background-color: #003c2f;
+}
+#community .busbox {
+    background-color: #001b3e;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-hover li:not(.languagecov):hover {
+        background: rgba(218, 218, 218, 0.7);
+        -webkit-transition: background 0.7s ease-in-out;
+        -moz-transition: background 0.7s ease-in-out;
+        transition: background 0.7s ease-in-out;
+    }
+    .activemenutop {
+        background: rgba(218, 218, 218, 0.5);
+    }
+    .container_nopadding {
+        margin-top: -70px;
+    }
+    .carousel-caption span {
+        opacity: 0.5;
+        display: initial;
+    }
+    .carousel-caption {
+        right: 30%;
+        left: 10%;
+        padding-bottom: 30px;
+        top: 120px;
+        text-align: left;
+    }
+    .carousel-caption h1 {
+        padding-top: 70px;
+        padding-bottom: 20px;
+        font-size: 4em;
+    }
+    .busbox img {
+        position: absolute;
+        right: -22px;
+        z-index: 10;
+        top: 15px;
+        width: 43px;
+    }
+    .busbox {
+        margin-top: 50px;
+        height: 134px;
+    }
+    .policyreg img {
+        position: absolute;
+        left: -22px;
+        z-index: 10;
+        top: 30px;
+        width: 43px;
+    }
+    .pic_solider img {
+        margin-top: -25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 5em;
+    }
+    .carousel-caption {
+        right: 40%;
+        left: 10%;
+        padding-bottom: 30px;
+        top: 120px;
+        text-align: left;
+    }
+    .busbox img {
+        top: 40px;
+    }
+    .busbox {
+        margin-top: 50px;
+        height: 188px;
+    }
+    .busbox img {
+        right: -44px;
+        width: 86px;
+    }
+    .busbox h4 {
+        margin-top: 60px;
+    }
+    .policyreg img {
+        left: -44px;
+        width: 86px;
+    }
+    .policyreg h4 {
+        margin: 50px 25px 10px 55px;
+        color: white;
+    }
+    .policyreg h6 {
+        margin: 0 10px 25px 55px;
+        color: white;
+    }
+    .col-sm-6.policyreg {
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .busbox {
+        height: 215px;
+    }
+    .policyreg {
+        padding-top: 18px !important;
+    }
+    .policyreg h4,
+    .busbox h4 {
+        margin: 60px 25px 0px 65px;
+        color: white;
+    }
+    .policyreg h6 {
+        margin: 10px 10px 25px 65px;
+        color: white;
+    }
+    .col-sm-6.policyreg {
+        padding-bottom: 60px;
+    }
+    .busbox h4,
+    .policyreg h4 {
+        font-size: 1.9em;
+    }
+    .busbox h6 {
+        margin: 10px 25px 10px 65px;
+    }
+    .policyreg img {
+        top: 55px;
+        left: -44px;
+        width: 86px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pic_solider img,
+    .pic_bus img {
+        width: 100%;
+    }
+    .busbox,
+    .policyreg {
+        margin-top: -25px;
+        text-align: center;
+    }
+    .busbox img {
+        position: relative;
+        bottom: -44px;
+        z-index: 10;
+    }
+    .policyreg h6 {
+        margin: 0 10px 0px 35px;
+    }
+    .policyreg img {
+        position: relative;
+        bottom: -40px;
+        z-index: 10;
+    }
+    .busbox h4,
+    .policyreg h4 {
+        padding-top: 30px;
+        font-size: 2em;
+    }
+}

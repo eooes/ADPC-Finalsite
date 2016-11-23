@@ -1,0 +1,332 @@
+/*!
+ *  iprepare CSS theme 
+ *  elements
+ *  
+ */
+
+
+/* title */
+
+.everytitle {
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.everytitle p {
+    font-weight: 300;
+}
+
+.everytitle h2 span {
+    color: rgb(45, 81, 126);
+}
+
+
+/*
+.everytitle_up {margin-top: 40px;}*/
+
+.everytitle_up h2 span {
+    color: rgb(150, 160, 242);
+}
+
+.disasterMenu {
+    margin-top: -1px;
+    padding: 0;
+}
+
+.everytitle_sm {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.everytitle_sm p {
+    font-weight: 300;
+}
+
+.everytitle_sm h2 span {
+    color: rgb(45, 81, 126);
+}
+
+.disasterMenu .circle1,
+.disasterMenu .circle2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #053576;
+    opacity: 0.5;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.disasterMenu .circle1 {
+    margin: auto;
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    border-radius: 500px 500px 0 0;
+    -moz-border-radius: 500px 500px 0 0;
+    -webkit-border-radius: 500px 500px 0 0;
+}
+
+.disasterMenu .circle2 {
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    border-radius: 400px 400px 0 0;
+    -moz-border-radius: 400px 400px 0 0;
+    -webkit-border-radius: 400px 400px 0 0;
+}
+
+.disasterMenu h1 {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    color: white;
+}
+
+.disasterMenu h6 {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    color: white;
+}
+
+.symbolimg {
+    position: absolute;
+    top: -40px;
+    z-index: 2;
+    margin: auto;
+    width: 86px;
+    height: 85px;
+    right: 0;
+    left: 0;
+}
+
+.disasterMenu:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/pattern.png) repeat;
+}
+
+@media (max-width: 768px) {
+    .h6descrip {
+        display: none;
+    }
+    .disasterMenu .circle1 {
+        height: 160px;
+        width: 320px;
+        border-radius: 320px 320px 0 0;
+        -moz-border-radius: 320px 320px 0 0;
+        -webkit-border-radius: 320px 320px 0 0;
+    }
+    .disasterMenu .circle2 {
+        height: 120px;
+        width: 250px;
+        border-radius: 250px 250px 0 0;
+        -moz-border-radius: 250px 250px 0 0;
+        -webkit-border-radius: 250px 250px 0 0;
+    }
+    .disasterMenu .pic_disaster {
+        height: 320px;
+        object-fit: cover;
+    }
+}
+
+.newsact_cover {
+    background: rgb(136, 150, 242);
+    text-align: left;
+    z-index: 3;
+    margin: 0 30px 30px 30px;
+    color: white;
+}
+
+.sectionNews {
+    margin-top: 100px;
+}
+
+.newsact_cover h3 {
+    padding: 30px;
+}
+
+.newsact_cover h3 span {
+    font-size: 0.5em;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.newsact_cover h3 span a {
+    color: white;
+}
+
+.newsact_cover h3 {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
+.newsact_cover ul {
+    list-style: none;
+    padding: 0px 25px 40px 25px;
+    font-size: 0.85em;
+}
+
+.newsact_cover ul li:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.newsact_cover ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newsact_cover ul a {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .sectionupdate {
+        margin-top: -300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sectionupdate {
+        margin-top: -340px;
+    }
+}
+
+@media (max-width: 992px) {
+    .newsact_cover ul span {
+        display: none;
+    }
+    .sectionupdate {
+        margin-top: -225px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sectionupdate {
+        margin-top: -10px;
+    }
+    .imbehind,
+    .imbehind2 {
+        display: none;
+    }
+    .sectionNews {
+        margin-top: 0px;
+    }
+    .newsact_cover {
+        margin: 0 5px 0 5px;
+    }
+    .newsact_cover ul li a {
+        font-size: 1.2em;
+    }
+}
+
+.imbehind2 {
+    bottom: 100px;
+    z-index: -10;
+    position: relative;
+}
+
+.imbehind {
+    top: -450px;
+    z-index: -10;
+    position: relative;
+}
+
+.sectionupdate .newsact_cover {
+    background-color: rgb(51, 56, 89);
+}
+
+#viewall1,
+#viewall2 {
+    margin-top: -43px;
+    padding-bottom: 30px;
+    padding-right: 24px;
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+#viewall1 a,
+#viewall2 a {
+    color: white;
+}
+
+.margin-right10 {
+    margin-right: 10px;
+}
+
+.everystrip h4 {
+    font-weight: 300;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.everystrip {
+    -webkit-box-shadow: 0px 4px 14px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 4px 14px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 14px -2px rgba(0, 0, 0, 0.5);
+}
+
+.coverstrip {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.twocol.adjustsize p {
+    font-size: 1em;
+}
+
+.stripwhite {
+    background-color: white;
+}
+
+#news_update .everystrip h4 {
+    color: white;
+}
+
+#news_update .stripwhite {
+    background-color: #5e71eb;
+}
+
+.color_section {
+    color: white;
+}
+
+.white_section {
+    background-color: white;
+    color: #5d5d5d;
+}
+
+.color_section,
+.white_section {
+    padding-bottom: 60px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

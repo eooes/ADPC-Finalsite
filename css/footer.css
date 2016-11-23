@@ -1,0 +1,92 @@
+/*!
+ *  iprepare CSS theme 
+ *  footer
+ *  
+ */
+
+
+/* title */
+
+footer {
+    font-size: 0.8em;
+    text-align: left;
+    background-color: rgb(222, 222, 222);
+    color: rgb(60, 60, 60);
+}
+
+@media (max-width: 600px) {
+    footer {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerbottom ul li:first-child {
+        padding-bottom: 20px;
+        display: block;
+    }
+    .footerbottom ul li:nth-child(2) {
+        padding-left: 0px;
+    }
+    .classmenu ul li {
+        font-size: 1.5em;
+        display: none;
+        padding-left: 10px;
+    }
+    .classmenu ul li:first-child {
+        display: inherit;
+        font-size: 2em;
+        padding-left: 0px;
+    }
+    .classmenu ul li:first-child:after{
+        content:'>';
+        float: right;
+    }
+}
+
+
+footer li a {
+    color: rgb(60, 60, 60);
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+}
+
+.footermenu {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.footermenu ul li {
+    line-height: 2.4em;
+}
+
+.footermenu ul {
+    padding-left: 0px;
+}
+
+.footerbottom {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: rgb(150, 150, 150);
+}
+
+.footerbottom ul li {
+    list-style: none;
+    text-align: left;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+}
+
+.footerbottom ul li:first-child {
+    border-right: 0;
+    padding-left: 0px;
+}
+
+.footerbottom ul li:last-child {
+    border-right: 0;
+}

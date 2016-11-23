@@ -1,0 +1,119 @@
+/*!
+ *  iprepare CSS theme 
+ *  animation
+ *  
+ */
+
+.circleani {
+    background: rgba(33, 150, 243, 0.50);
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    -webkit-animation: grow 2s infinite;
+}
+
+.circleani2 {
+    background: rgba(0, 150, 136, 0.5);
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    -webkit-animation: grow 2s infinite;
+}
+
+#business .circleani2 {
+    background: rgba(33, 150, 243, 0.50);
+}
+#government .circleani {
+    background: rgba(1, 116, 90, 0.50);
+}
+#community .circleani {
+    background: rgba(5, 53, 118, 0.50);
+}
+@media screen and (max-width: 768px) {
+    .circleani {
+        width: 90px;
+        height: 90px;
+        bottom: -46px;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    .circleani2 {
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: -42px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .circleani {
+        width: 48px;
+        height: 48px;
+        top: 13px;
+        right: -24px;
+    }
+    .circleani2 {
+        width: 48px;
+        height: 48px;
+        top: 27px;
+        left: -25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .circleani {
+        width: 90px;
+        height: 90px;
+        top: 38px;
+        right: -46px
+    }
+    .circleani2 {
+        width: 90px;
+        height: 90px;
+        top: 27px;
+        left: -46px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .circleani2 {
+        width: 90px;
+        height: 90px;
+        top: 52px;
+        left: -46px;
+    }
+}
+
+@-webkit-keyframes grow {
+    - 0% {
+        /*border: solid rgba(158,158,158,0.5) 3px;*/
+        -webkit-transform: scale( 1);
+        -moz-transform: scale( 1);
+        -o-transform: scale( 1);
+        -ms-transform: scale( 1);
+        transform: scale( 1);
+    }
+    50% {
+        /*border: solid rgba(158,158,158,0.5) 9px;*/
+        -webkit-transform: scale( 1.2);
+        -moz-transform: scale( 1.2);
+        -o-transform: scale( 1.2);
+        -ms-transform: scale( 1.2);
+        transform: scale( 1.2);
+    }
+    100% {
+        /*border: solid rgba(158,158,158,0.5) 3px;*/
+        -webkit-transform: scale( 1);
+        -moz-transform: scale( 1);
+        -o-transform: scale( 1);
+        -ms-transform: scale( 1);
+        transform: scale( 1);
+    }
+}
